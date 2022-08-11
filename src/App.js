@@ -9,7 +9,12 @@ function App() {
         <main>
           <Dictionary defaultKeyword="sunrise" />
         </main>
-        <footer className="text-center">coded by Sarah Halley</footer>
+        <footer className="text-center">
+          <a href="https://github.com/ScaraHalley/dictionary-react">
+            open source code
+          </a>{" "}
+          by Sarah Halley
+        </footer>
       </div>
     </div>
   );

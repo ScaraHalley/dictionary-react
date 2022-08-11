@@ -1,11 +1,21 @@
-App {
+.App {
   max-width: 960px;
   margin: 0 auto;
 }
-App .header {
+.App .header {
   font-size: small;
   margin: 30px 0;
 }
-App .footer {
+.App .footer {
   font-size: small;
+}
+.App a {
+  text-decoration: none;
+  color: rgba(141, 77, 141);
+  transition: all 150ms ease-in-out;
+}
+.App a:hover {
+  text-decoration: none;
+  color: rgb(170, 52, 216);
+  font-weight: bold;
 }
